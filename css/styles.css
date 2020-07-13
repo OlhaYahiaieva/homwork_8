@@ -178,6 +178,9 @@ input[type="”radio”"].visually-hidden {
   border: transparent;
   text-decoration: none;
 }
+.partners {
+  margin-top: 73px;
+}
 .partners-title {
   text-align: center;
   font-family: "Monserat", sans-serif;
@@ -187,7 +190,6 @@ input[type="”radio”"].visually-hidden {
   padding: 0;
   margin: 0;
   margin-bottom: 33px;
-  margin-top: 73px;
 }
 .team-list {
   list-style: none;
@@ -196,6 +198,7 @@ input[type="”radio”"].visually-hidden {
 }
 .list-name {
   position: relative;
+  margin-bottom: 60px;
 }
 .list-name::after {
   content: "";
@@ -233,6 +236,7 @@ input[type="”radio”"].visually-hidden {
   text-align: center;
   font-family: "Monserat", sans-serif;
   text-transform: capitalize;
+  margin: 0;
   margin-top: 20px;
 }
 .contact-information {
@@ -240,7 +244,7 @@ input[type="”radio”"].visually-hidden {
   color: #666666;
   font-size: 14px;
   font-weight: 300;
-  margin: 0 auto 28px;
+  margin: 0;
   text-align: center;
   margin-top: 9px;
   width: 218px;
@@ -267,9 +271,10 @@ input[type="”radio”"].visually-hidden {
   .page-header {
     height: 700px;
     background-size: cover;
+    min-height: 700px;
   }
   .container {
-    width: 660px;
+    width: 940px;
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
@@ -283,11 +288,11 @@ input[type="”radio”"].visually-hidden {
   .site-navigation {
     margin: 38px;
     padding: 0;
-    margin-bottom: 160px;
   }
   .navigation-variation {
     margin: 0;
     padding: 8px 0;
+    margin-bottom: 160px;
   }
   .title {
     margin-top: 160px;
@@ -303,8 +308,8 @@ input[type="”radio”"].visually-hidden {
   .header-button {
     margin-top: 35px;
     width: 224px;
-    margin-bottom: 234px;
   }
+
   .team-list {
     display: flex;
     flex-wrap: wrap;
@@ -316,7 +321,7 @@ input[type="”radio”"].visually-hidden {
     margin-bottom: 40px;
     width: 192px;
   }
-  @media (min-width: 1440px) {
+  @media (min-width: 960px) {
     .container {
       width: 940px;
       padding: 0;
